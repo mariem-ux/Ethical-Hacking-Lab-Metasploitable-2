@@ -29,16 +29,19 @@ A hands-on ethical hacking lab where I attacked Metasploitable 2 from Kali Linux
 - **Exploit:** Send username with `:)` to port 21 → Backdoor opens on port 6200
 - **Result:** Root access via port 6200
 - **Note:** Port 6200 is the hidden backdoor port where the root shell is received after triggering the exploit on port 21.
+- ![Root Access](screenshots/root_access.png)
 
 ### 2. SSH Brute Force (Port 22)
 - **Vulnerability:** Default weak credentials
 - **Tool:** Metasploit SSH login scanner
 - **Result:** Password discovered: `msfadmin:msfadmin`
+- ![SSH](screenshots/ssh.png)
 
 ### 3. SQL Injection (Port 80)
 - **Target:** DVWA (Damn Vulnerable Web Application)
 - **Payload:** `1' OR '1'='1`
 - **Result:** All user records extracted from database
+- ![SQL Injection](screenshots/sqli.png)
 
 ---
 
@@ -64,7 +67,8 @@ A hands-on ethical hacking lab where I attacked Metasploitable 2 from Kali Linux
 
 ## Dashboard
 
-A results dashboard was created to summarize all attacks 
+A results dashboard was created to summarize all attacks :
+![Dashboard](screenshots/dashboard.png)
 ---
 
 
