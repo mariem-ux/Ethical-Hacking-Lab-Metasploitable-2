@@ -29,11 +29,11 @@ run
 
 ---
 
-##attack 3: SQL Injection
+## Attack 3: SQL Injection
 
-Payload: 1' OR '1'='1
-URL: http://192.168.1.3/dvwa
-Login: admin / password
+Payload: 1' OR '1'='1  
+URL: http://192.168.1.3/dvwa  
+Login: admin / password  
 
 
 
